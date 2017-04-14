@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>      
+
+<project name="Gitlab-Integration" default="build">                  
+  <property name="workspace" value="${basedir}" />
+  <property name="sourcedir" value="${basedir}/sites/all" />
+  <property name="builddir" value="${workspace}/build" />
+  <property environment="env"/>
+  
+  <target name="build" depends="prepare"/>
+  <target name="prepare"  description="Prepare for build">
+    <echo message="${env}">
+  </target>
+  </target>
+</project>
+  
